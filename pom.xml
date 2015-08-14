@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>squirejs</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.2.0-SNAPSHOT</version>
     <name>Squire.js</name>
     <description>WebJar for Squire.js</description>
     <url>http://webjars.org</url>
@@ -41,8 +41,8 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamTip>7e987e6fb3d253fe0d8cd6b4bc550d77a883c0cf</upstreamTip>
-        <upstreamVersion>0.1.0</upstreamVersion>
+        <upstreamTip>d64da2d32b7f8cf67964c8573275b0c3df09535f</upstreamTip>
+        <upstreamVersion>0.2.0</upstreamVersion>
         <sourceUrl>https://github.com/iammerrick/Squire.js/archive</sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
         <extractDir>${project.build.directory}/Squire.js-${upstreamTip}</extractDir>
